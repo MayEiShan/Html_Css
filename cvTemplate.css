@@ -1,0 +1,151 @@
+
+  div.gallery {
+    margin: 5px;
+    border: 2px solid white;
+    float: left;
+    width: 250px;
+  
+  }
+  
+  div.gallery:hover {
+    border: 2px solid white;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: left;
+  }
+ 
+  p{
+    display:inline-block;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    box-shadow: 10px 10px 5px cadetblue;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    
+    display: inline-block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: blue;
+    color:blue;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:inline-block;
+    width:100%;
+  }
+  
+  li{
+    list-style-type: none;
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    padding: 8px;
+    background-color:white;
+  }
+  *{
+    box-sizing: border-box;
+}
+.main1{
+    
+    float: left;
+    width:20%;
+    height:500px;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 5px cadetblue;
+}
+.main2{
+   
+    width:80%;
+    height:1000px;
+    float: right;
+    padding:20px;
+    box-shadow: 10px 10px 5px cadetblue;
+    
+}  
+.second{
+  width:100%;
+  height:300px;
+  box-shadow: 10px 10px 5px cadetblue;
+}
+.second1{
+  width:50%;
+  height:100%;
+  float: left;
+  margin-top:40px;
+  padding: 10px 20px;
+}
+.second2{
+  width:50%;
+  height:100%;
+  margin-top: 30px;
+  float:left;
+}
+.second2 img{
+  width:200px;
+  height:200px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 60px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  
+}
+.square {
+  background-color: blue;
+  width:15px;
+  height:15px;
+  float:right;
+  margin-top:5px;
+  margin-right:10px;
+}
+.square1{
+  background-color: blue;
+  width:10px;
+  height:10px;
+  float:right;
+  margin-top:30px;
+  margin-right:0;
+}
+.square2{
+  background-color: blue;
+  width:5px;
+  height:5px;
+  float:right;
+  margin-top:50px;
+  margin-right:0;
+}
